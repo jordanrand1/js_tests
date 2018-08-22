@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Js Tests</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+      <div id="tests">
+        <div>
+          <h1 id="passed">
+            Passed:&nbsp;
+            <span id="p_count">0</span>
+          </h1>
+          <ul id="passed_tests"></ul>
+        </div>
+        <div>
+          <h1 id="fail">
+            Failed:&nbsp;
+            <span id="f_count">0</span>
+          </h1>
+          <ul id="failed_tests"></ul>
+        </div>
+      </div>
+      <button id="run">Run Tests</button>
+
+      <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+      <script src="https://unpkg.com/expect@%3C21/umd/expect.min.js"></script>
+      <script src="./main.js"></script>
+  </body>
+</html>
