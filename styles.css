@@ -1,0 +1,12 @@
+#test{
+  display: flex;
+  justify-content: space-around;
+}
+
+#passed{
+  color: green;
+}
+
+#failed{
+  color: red;
+}
